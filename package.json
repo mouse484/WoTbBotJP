@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mouse484/WoTbBotJP#readme",
   "dependencies": {
+    "discord.js": "^11.4.2",
     "dotenv": "^6.2.0"
   }
 }
