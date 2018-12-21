@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mouse484/WoTbBotJP/issues"
   },
-  "homepage": "https://github.com/mouse484/WoTbBotJP#readme"
+  "homepage": "https://github.com/mouse484/WoTbBotJP#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0"
+  }
 }
