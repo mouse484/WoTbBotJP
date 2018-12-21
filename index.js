@@ -20,6 +20,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
+    client.user.setStatus("online");
     if (message.author.bot) return;
     if (message.content.startsWith(set.prefix)) {
         command.run(client, message, set);
