@@ -3,9 +3,7 @@ module.exports.set = {
     aliases: ["ping"],
     allow: [],
     nochannel: [""],
-    category: "bot",
     description: "botのpingを表示します",
-    detail: "",
 };
 
 module.exports.run = (client, set,message) => {
